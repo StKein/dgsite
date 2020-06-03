@@ -1,0 +1,21 @@
+{% load static %}
+<html>
+    <head>
+        <title>Blog</title>
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}" />
+        <link href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="content" class="container">
+            <div class="page_header_wrapper">
+                <!--TODO: change it to variable-->
+                <h1 class="page_header _mod-lobster">Welcome to Hell</h1>
+            </div>
+            <div id="page_content">
+                {% block content %}
+                {% endblock %}
+            </div>
+        </div>
+    </body>
+</html>

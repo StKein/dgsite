@@ -1,0 +1,13 @@
+{% extends 'blog/main.html' %}
+
+{% block content %}
+<div class="post post_detail">
+    {% if post.published_date %}
+    <div class="date">
+        {{ post.published_date }}
+    </div>
+    {% endif %}
+    <h2><a class="post_header _mod-lobster">{{post.title}}</a></h2>
+    <p class="post_text">{{post.text|linebreaksbr}}</p>
+</div>
+{% endblock %}

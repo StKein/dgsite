@@ -1,0 +1,23 @@
+#content{
+    padding: 10px 20px;
+}
+#content .page_header_wrapper{
+    background-color: #3E6E8A;
+}
+#content .page_header_wrapper .page_header{
+    color: #DEDEDE;
+    font-style: italic;
+    padding: 5 10px;
+    text-align: center;
+}
+#content .post_header{
+    color: #40AEE2;
+}
+#content .post .date {
+    color: #828282;
+    float: right;
+}
+
+._mod-lobster{
+    font-family: Lobster;
+}
