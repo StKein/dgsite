@@ -1,0 +1,41 @@
+#content{
+    padding: 10px 20px;
+}
+#content .page_header_wrapper{
+    background-color: #3E6E8A;
+    padding: 5 10px;
+    text-align: center;
+}
+#content .page_header_wrapper .page_header{
+    color: #DEDEDE;
+    font-style: italic;
+}
+#content .post_header{
+    color: #40AEE2;
+}
+#content .post .date {
+    color: #828282;
+    float: right;
+}
+
+#content .save {
+    float: right;
+}
+
+#content .post-form textarea,
+#content .post-form input {
+    width: 100%;
+}
+
+#content .top-menu,
+#content .top-menu:hover,
+#content .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+._mod-lobster{
+    font-family: Lobster;
+}
