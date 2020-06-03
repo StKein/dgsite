@@ -1,11 +1,16 @@
 {% extends 'blog/main.html' %}
 
 {% block content %}
-<div class="post post_detail">
+<div class="post post_detail col-md-12">
     {% if post.published_date %}
     <div class="date">
         {{ post.published_date }}
     </div>
+    {% endif %}
+    {% if user.is_authenticated %}
+    <a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}">
+        <span class="glyphicon glyphicon-pencil">EDIT</span>
+    </a>
     {% endif %}
     <h2><a class="post_header _mod-lobster">{{post.title}}</a></h2>
     <p class="post_text">{{post.text|linebreaksbr}}</p>
