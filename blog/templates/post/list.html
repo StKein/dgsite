@@ -1,7 +1,7 @@
 {% extends 'blog.html' %}
 
 {% block content %}
-<div class="posts_wrapper col-md-8">
+<div class="posts_wrapper col-md-12">
     {% if user.is_authenticated %}
     <p><a class="btn btn-primary" href="{% url 'post_new' %}">New post</a></p>
     {% endif %}
