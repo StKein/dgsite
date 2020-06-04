@@ -1,15 +1,10 @@
-#content{
-    padding: 10px 20px;
-}
-#content .page_header_wrapper{
+#content .blog_header_wrapper{
     background-color: #3E6E8A;
-    padding: 5 10px;
-    text-align: center;
 }
-#content .page_header_wrapper .page_header{
+#content .blog_header_wrapper .blog_header{
     color: #DEDEDE;
-    font-style: italic;
 }
+
 #content .post_header{
     color: #40AEE2;
 }
@@ -34,8 +29,4 @@
     float: right;
     font-size: 26pt;
     margin-right: 20px;
-}
-
-._mod-lobster{
-    font-family: Lobster;
 }

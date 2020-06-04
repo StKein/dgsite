@@ -1,16 +1,16 @@
 {% load static %}
 <html>
     <head>
-        <title>Blog</title>
+        <title>Site</title>
         <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
-        <link rel="stylesheet" href="{% static 'css/blog.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/common.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/site.css' %}" />
         <link href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <div id="content" class="container">
-            <div class="page_header_wrapper">
-                <!--TODO: change it to variable-->
-                <h1><a href="/" class="page_header _mod-lobster">Welcome to Blog</a></h1>
+            <div class="page_header_wrapper site_header_wrapper">
+                <h1><a href="/" class="page_header site_header _mod-lobster">Welcome to Site</a></h1>
             </div>
             <div id="page_content">
                 {% block content %}
