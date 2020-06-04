@@ -1,0 +1,19 @@
+#content{
+    padding: 10px 20px;
+}
+
+#content .page_header_wrapper{
+    padding: 5 10px;
+    text-align: center;
+}
+#content .page_header_wrapper .page_header{
+    font-style: italic;
+}
+
+#page_content{
+    padding: 15px 0;
+}
+
+._mod-lobster{
+    font-family: Lobster;
+}

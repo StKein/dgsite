@@ -1,11 +1,9 @@
-{% extends 'blog/main.html' %}
+{% extends 'blog.html' %}
 
 {% block content %}
 <div class="posts_wrapper col-md-8">
     {% if user.is_authenticated %}
-    <div class="post_create_wrapper">
-        <a class="post_new" href="{% url 'post_new' %}">New post</a>
-    </div>
+    <p><a class="btn btn-primary" href="{% url 'post_new' %}">New post</a></p>
     {% endif %}
     {% for post in posts %}
     <div class="post">
